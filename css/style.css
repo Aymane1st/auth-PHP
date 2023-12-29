@@ -1,0 +1,99 @@
+@font-face{
+	font-family:roboto;
+	src:url("../fonts/roboto.ttf");
+}
+@font-face{
+	font-family:garamond;
+	src:url("../fonts/garamond.ttf");
+}
+*{
+	font-family:garamond,serif;
+	font-size:12pt;
+}
+body{
+	min-height:100vh;
+	margin:0;
+	background-image:url("../images/benches.jpg");
+	background-size:cover;
+	background-position:70% 50%;
+}
+#container{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#myform{
+	width:60%;
+	padding:60px;
+	box-sizing:border-box;
+	margin:0;
+	background-color:rgba(0,0,0,0.8);
+	box-shadow:0 0 16px rgba(255,255,255,0.4);
+}
+.inputtext{
+	width:100%;
+	padding:12px 16px;
+	box-sizing:border-box;
+	font-size:14pt;
+	background-color:rgba(255,255,255,0.7);
+	color:#FFF;
+	text-shadow:0 0 4px rgba(0,0,0,0.7);
+	border:none;
+	outline:none;
+	display:block;
+	margin:14px 0;
+}
+.inputtext::placeholder{
+	color:rgba(0,0,0,0.4);
+	text-shadow:none;
+}
+.inputsubmit{
+	background-color:#F80;
+	transition:all 0.3s ease;
+	cursor:pointer;
+}
+.inputsubmit:hover{
+	background-color:#FA2;
+}
+#notif,#notif *{
+	padding:14px 0;
+	font-size:14pt;
+	height:40px;
+}
+.error{
+	color:#F00;
+}
+.ok{
+	color:#0F0;
+}
+#captcha{
+	font-size:20pt;
+	color:#FFF;
+	filter:blur(2px);
+}
+.label{
+	color:#FFF;
+	color:#AAA;
+}
+.value{
+	color:#FFF;
+	font-size:20pt;
+	margin-bottom:20px;
+}
+.back{
+	background-color:#F80;
+	transition:all 0.3s ease;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	padding:12px 16px;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+}
+.back:hover{
+	background-color:#FA2;
+}
+
+
